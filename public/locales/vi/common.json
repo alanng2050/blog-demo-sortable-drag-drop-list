@@ -1,0 +1,78 @@
+{
+  "common-err-too-weak": "Quá dễ",
+  "btn-submit": "Gửi",
+  "err-required": "Bắt buộc",
+
+  "reset-pass-error": "Đường dẫn không hợp lệ.",
+  "reset-pass-reset": "Đặt lại mật khẩu",
+  "reset-pass-newpass": "Mật khẩu mới",
+  "reset-pass-confirm-newpass": "Nhập lại mật khẩu mới",
+  "reset-pass-err-not-match-pass": "Không khớp với mật khẩu",
+  "reset-pass-title": "Đặt lại mật khẩu",
+  "reset-pass-success-msg": "Thành công!",
+
+  "common-error": "Đã có lỗi xảy ra, vui lòng thử lại!",
+
+  "menu-dashboard": "Tổng quan",
+  "menu-profile": "Tài khoản",
+  "menu-signout": "Thoát",
+
+  "lang-menu-vi": "Tiếng Việt",
+  "lang-menu-en": "Tiếng Anh",
+
+  "sign-up-title": "Đăng ký",
+  "sign-up-already-have-acc": "Bạn đã có tài khoản?",
+  "sign-up-sign-in-now": "Đăng nhập ngay!",
+  "sign-up-with-gg": "Đăng nhập với Google",
+  "sign-up-or": "Hoặc",
+  "sign-up-name": "Tên",
+  "sign-up-email": "Địa chỉ email",
+  "sign-up-pass": "Mật khẩu",
+  "sign-up-confirm-pass": "Nhập lại mật khẩu",
+  "sign-up-btn-sign-up": "Đăng ký",
+
+  "sign-in-title": "Đăng nhập",
+  "sign-in-no-acc": "Bạn chưa có tài khoản?",
+  "sign-in-create-now": "Tạo ngay!",
+  "sign-in-err": "Sai mật khẩu hoặc email",
+  "sign-in-forgot-pass": "Quên mật khẩu?",
+  "sign-in-btn": "Đăng nhập",
+
+  "forgot-pass-enter-email": "Nhập địa chỉ email bạn đã đăng ký.",
+  "forgot-pass-title": "Quên mật khẩu",
+  "forgot-pass-success": "Chúng tôi vừa gửi bạn một email hướng dẫn cách cài đặt lại mật khẩu. Xin cám ơn.",
+  "forgot-pass-back-to-signin": "Qua lại đăng nhập",
+
+  "err-number": "Phải là số",
+  "err-min": "Tối thiểu {{value}}",
+  "err-max": "Tối đa {{value}}",
+
+  "err-min-char": "Tối thiếu {{value}} kí tự",
+  "err-max-char": "Tối đa {{value}}  kí tự",
+  "common-deleted": "Đã xoá",
+  "common-added": "Đã thêm",
+  "common-updated": "Đã cập nhật",
+  "common-select-file": "Chọn file",
+  "common-success": "Thành công",
+  "common-question-delete": "Bạn chắc chắn? Sẽ không thể khôi phục lại sau khi xoá.",
+  "btn-delete": "Xoá",
+  "btn-cancel": "Huỷ",
+
+  "common-action": "Thao tác",
+  "common-add-new": "Thêm",
+  "common-no-data": "Không có dữ liệu",
+
+  "err-email": "Sai định dạng email",
+  "err-pass-too-weak": "Quá yếu",
+  "sign-up-success-msg": "Hệ thống đã gửi một email xác nhận cho bạn. Vui lòng kiểm tra, xin cám ơn!",
+
+  "common-note": "Ghi chú",
+  "common-delete-title": "Xoá",
+
+  "common-name": "Tên",
+
+  "profile-update-info": "Cập nhật",
+  "profile-update-pass": "Thay đổi mật khẩu",
+  "profile-title": "Tài khoản",
+  "profile-personal-info": "Thông tin cơ bản"
+}

@@ -1,0 +1,77 @@
+{
+  "common-err-too-weak": "Too weak",
+  "btn-submit": "Submit",
+  "err-required": "Required",
+
+  "reset-pass-error": "The link is not valid",
+  "reset-pass-reset": "Reset",
+  "reset-pass-newpass": "New Password",
+  "reset-pass-confirm-newpass": "Confirm New Password",
+  "reset-pass-err-not-match-pass": "Doesn't match the Password",
+  "reset-pass-title": "Reset Password",
+  "reset-pass-success-msg": "Reset password successfully!",
+
+  "common-error": "Something went wrong, please try again!",
+  "menu-dashboard": "Dashboard",
+  "menu-profile": "Profile",
+  "menu-signout": "Sign out",
+
+  "lang-menu-vi": "Vietnamese",
+  "lang-menu-en": "English",
+
+  "sign-up-title": "Sign Up",
+  "sign-up-already-have-acc": "Already have an account?",
+  "sign-up-sign-in-now": "Sign In Now!",
+  "sign-up-with-gg": "Sign In with Google",
+  "sign-up-or": "Or",
+  "sign-up-name": "Name",
+  "sign-up-email": "Email",
+  "sign-up-pass": "Password",
+  "sign-up-confirm-pass": "Confirm Password",
+  "sign-up-btn-sign-up": "Sign up",
+
+  "sign-in-title": "Sign In",
+  "sign-in-no-acc": "Don't have an account?",
+  "sign-in-create-now": "Create One Now!",
+  "sign-in-err": "Incorrect email or password",
+  "sign-in-forgot-pass": "Forgot password?",
+  "sign-in-btn": "Sign in",
+
+  "forgot-pass-enter-email": "Please enter the email associated with your account.",
+  "forgot-pass-title": "Forgot Password",
+  "forgot-pass-success": "Please check your email for the Reset Password Link",
+  "forgot-pass-back-to-signin": "Back to Sign In",
+
+  "err-number": "Must be a number",
+  "err-min": "Min. {{value}}",
+  "err-max": "Max. {{value}}",
+
+  "err-min-char": "Min. {{value}} Characters",
+  "err-max-char": "Max. {{value}} Characters",
+  "common-deleted": "Deleted",
+  "common-added": "Added",
+  "common-updated": "Updated",
+  "common-select-file": "Select File",
+  "common-success": "Successful",
+  "common-question-delete": "Are you sure? You can't undo this action afterwards.",
+  "btn-delete": "Delete",
+  "btn-cancel": "Cancel",
+
+  "common-action": "Action",
+  "common-add-new": "Add New",
+  "common-no-data": "No data",
+
+  "err-email": "Invalid email",
+  "err-pass-too-weak": "Too weak",
+  "sign-up-success-msg": "We have sent a verificaiton link to your email. Please confirm it to continue. Thank you!",
+
+  "common-note": "Note",
+  "common-delete-title": "Delete",
+
+  "common-name": "Name",
+
+  "profile-update-info": "Update Info",
+  "profile-update-pass": "Update Password",
+  "profile-title": "Profile",
+  "profile-personal-info": "Personal Information"
+}

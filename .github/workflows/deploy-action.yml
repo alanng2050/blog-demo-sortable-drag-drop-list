@@ -1,0 +1,38 @@
+name: Deployment
+run-name: Buid and deploy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - run: yarn install
+      # - name: Create .env file
+      #   run: |
+      #     touch .env
+      #     echo "NEXT_PUBLIC_API_HOST=${{ vars.NEXT_PUBLIC_API_HOST }}" >> .env
+      - run: yarn build
+      - name: Copy files
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          source: .next/*,package.json,ecosystem.config.js,server.mjs,next.config.js,next-i18next.config.js,public/*
+          target: project
+          rm: false
+      - name: Start server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          script: |
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            cd project
+            yarn install --production
+            yarn start:pm2
